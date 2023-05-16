@@ -1,5 +1,5 @@
 # WiViCo | Wikipedia Vikidia Corpus
-#### A general-purpose parallel sentence simplification dataset for French 
+### A general-purpose parallel sentence simplification dataset for French
 
 <p align="center">
     <a href="https://github.com/lormaechea/wivico/archive/refs/heads/main.zip">
@@ -25,14 +25,10 @@ By developing a __two-step automatic filtering method__ to mine register-diversi
 
 Using this approach, we provide in this repository a dataset of parallel sentence simplifications (__WiViCo__) that can be later used for training French sequence-to-sequence general-language ATS models for French, or to fine-tune a pretrained LLM for our downstream task.
 
----
-
 ## Repo structure:
 
 1. ```v.1```
 2. ```README.md```
-
----
 
 ## A special focus on intra- and inter-sentential simplifications:
 
@@ -44,14 +40,12 @@ Since we intended to capture all simplification operations, we decided to take i
     - *Divergence* (or *splitting*), that is, dividing long sentences into shorter and less complex segments (with *m*>*n*) (see __Example 3__).
     - *Convergence* (or *compression*), namely, rewriting *n* sentences into a simpler and more compact version *n*>1 and *m*<*n* (see __Example 4__).
 
-    | Examples | ***Wikipedia sentence*** | ***Vikidia sentence*** | Align.|
-    | ---- | ---- | --- | ---- |
-    | __Ex.01__ | L'expression « Maison-Blanche » est souvent employée pour désigner, par métonymie, l'administration du président.  | Par métonymie, la Maison-Blanche désigne aussi le gouvernement américain et son entourage. | __1:1__ |
-    | __Ex.02__ | L'Open d'Australie est l'un des quatre tournois qui constituent le Grand Chelem. | Au tennis, l'Open d'Australie est un tournoi qui fait partie de la catégorie des Grands Chelems. | __1:1__ |
-    | __Ex.03__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __1:2__ |
-    | __Ex.04__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __2:1__ |
-
----
+| Examples | ***Wikipedia sentence*** | ***Vikidia sentence*** | Align.|
+| ---- | ---- | --- | ---- |
+| __Ex.01__ | L'expression « Maison-Blanche » est souvent employée pour désigner, par métonymie, l'administration du président.  | Par métonymie, la Maison-Blanche désigne aussi le gouvernement américain et son entourage. | __1:1__ |
+| __Ex.02__ | L'Open d'Australie est l'un des quatre tournois qui constituent le Grand Chelem. | Au tennis, l'Open d'Australie est un tournoi qui fait partie de la catégorie des Grands Chelems. | __1:1__ |
+| __Ex.03__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __1:2__ |
+| __Ex.04__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __2:1__ |
 
 ## Citing & Authors
 
