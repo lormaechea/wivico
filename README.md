@@ -43,7 +43,6 @@ L'Open d'Australie est l'un des tournois de tennis de la catégorie du Grand Che
 
 Based on different cutoff probability thresholds, we enumerate all $Wn:Vm$ samples in each class. In this manner, researchers can benefit from this incremental approach and make use of the subset that suits their needs.
 
-
 ## A special focus on intra- and inter-sentential simplifications:
 
 Since we intended to capture all simplification operations, we decided to take into account both intra- and inter-sentential transformations:
@@ -58,7 +57,7 @@ Since we intended to capture all simplification operations, we decided to take i
 | ---- | ---- | --- | ---- |
 | __Ex.01__ | L'expression « Maison-Blanche » est souvent employée pour désigner, par métonymie, l'administration du président.  | Par métonymie, la Maison-Blanche désigne aussi le gouvernement américain et son entourage. | __1:1__ |
 | __Ex.02__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __1:2__ |
-| __Ex.03__ | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, née le 17 juin 1962 à Mangualde au Portugal, est une chanteuse et actrice luso-belge francophone. | Lio, de son vrai nom Vanda Maria Ribeiro Furtado Tavares de Vasconcelos, est une chanteuse et actrice luso-belge francophone. Elle est née le 17 juin 1962 à Mangualde au Portugal. | __2:1__ |
+| __Ex.03__ | La Ligue internationale contre le racisme et l'antisémitisme (LICRA) est une association luttant contre le racisme et l'antisémitisme en France, mais également sur le plan international. Elle est fondée en 1927 sous le nom de Ligue internationale contre l'antisémitisme (LICA). |  La Ligue internationale contre le racisme et l'antisémitisme (LICRA) est une association anti-raciste et anti-discrimination créée en 1927 qui agit dans le monde entier. | __2:1__ |
 
 ## Citing & Authors
 
