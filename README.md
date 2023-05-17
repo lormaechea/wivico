@@ -29,14 +29,14 @@ By developing a __two-step automatic filtering method__ to mine register-diversi
 
 Using this approach, we provide in this repository a dataset of parallel sentence simplifications (__WiViCo__) that can be later used for training French sequence-to-sequence general-language ATS models for French, or to fine-tune a pretrained LLM for the downstream task.
 
-## Repo structure:
+## Repository structure:
 
-The ```v.1.``` subfolder contains the first version of the WiViCo corpus, comprising parallel *complex-simple* pairs extracted from the French editions of Wikipedia and Vikidia.
+The ```v.1``` subfolder contains the first version of the WiViCo corpus (```wivico_dataset_v1.tar.gz```), comprising parallel *complex-simple* pairs extracted from the French editions of Wikipedia and Vikidia. 
  
 Utilizing the sigmoid output layer of the classifier we provide simplification pairs based on lenient or stricter thresholds:
 
 ```
-src	dst 0.5	0.6	0.7	0.8	0.9 alignment
+wiki_sent	viki_sent 0.5	0.6	0.7	0.8	0.9 alignment
 L'iMac est la gamme d’ordinateurs tout-en-un grand public d’Apple depuis 1998.	L'iMac d'Apple est une gamme d'ordinateur tout-en-un .	1	1	1	1	0   1:1
 L'Open d'Australie est l'un des tournois de tennis de la catégorie du Grand Chelem organisé depuis 1905.	Au tennis, l'Open d'Australie est un tournoi qui fait partie de la catégorie des Grands Chelems.	1	1	1	1	1   1:1
 ```
