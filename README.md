@@ -47,11 +47,11 @@ Based on different cutoff probability thresholds, we enumerate all $Wn:Vm$ sampl
 
 Since we intended to capture all simplification operations, we decided to take into account both intra- and inter-sentential transformations:
 
-- __*Intra-sentential* operations__, referring to the simplification changes that are produced within the scope of one single sentence (that is, on a *1*:*1* basis). These include word(s) substitution, reordering, paraphrasing as well as deletion, in the context of superfluous information (see __Examples 1, 2__).
+- __*Intra-sentential* operations__, referring to the simplification changes that are produced within the scope of one single sentence (that is, on a *1*:*1* basis). These include word(s) substitution, reordering, paraphrasing as well as deletion, in the context of superfluous information (see __Example 1__).
 
 - __*Inter-sentential* operations__, referring to the changes involving several sentences, that is, on a *n*:*m* basis:
-    - *Divergence* (or *splitting*), that is, dividing long sentences into shorter and less complex segments (with *m*>*n*) (see __Example 3__).
-    - *Convergence* (or *compression*), namely, rewriting *n* sentences into a simpler and more compact version *n*>1 and *m*<*n* (see __Example 4__).
+    - __*Divergence*__ (or __*splitting*__), that is, dividing long sentences into shorter and less complex segments (with *m*>*n*) (see __Example 2__).
+    - __*Convergence*__ (or __*compression*__), namely, rewriting *n* sentences into a simpler and more compact version *n*>1 and *m*<*n* (see __Example 3__).
 
 | Examples | ***Wikipedia sentence*** | ***Vikidia sentence*** | Align.|
 | ---- | ---- | --- | ---- |
