@@ -13,7 +13,7 @@ This repository provides a general-purpose *complex-simple* parallel sentence si
 
 <!--It results from the experiments performed in the following [paper](https://to_appear).-->
 
----
+## Background & Goals:
 
 While Automatic Text Simplification (ATS) appears to be an interesting task from a societal and computational perspective, the lack of monolingual parallel data prevents an agile implementation of ATS models, especially in less resource-rich languages than English. For these reasons, we aimed to investigate how to create a general-language parallel simplification dataset for French using a method to extract __complex-simple__ sentence pairs from comparable corpora like Wikipedia and its simplified counterpart, Vikidia. 
 
