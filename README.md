@@ -61,7 +61,7 @@ Since we intended to capture all simplification operations, we decided to take i
 
 ## Citing & Authors
 
-<!--If you find this repository helpful, feel free to cite our publication [Extracting sentence simplification pairs from French comparable corpora using a two-step filtering method](https://to_appear):
+If you find this repository helpful, feel free to cite our publication [Extracting sentence simplification pairs from French comparable corpora using a two-step filtering method](https://luciaormaechea.com/downloads/2023_ORMAECHEA_SWISSTEXT.pdf):
 
 ```bibtex 
 @inproceedings{ormaechea-2023-extracting-simplification-pairs,
@@ -72,10 +72,8 @@ Since we intended to capture all simplification operations, we decided to take i
     year = {2023},
     location = {Neuchâtel, Switzerland},
     publisher = {CEUR-WS},
-    url = {To appear},
 }
 ```
--->
 
 __Contact person__: [Lucía Ormaechea](https://luciaormaechea.com/), [lucia.ormaecheagrijalba@unige.ch](mailto:lucia.ormaecheagrijalba@unige.ch)
 
