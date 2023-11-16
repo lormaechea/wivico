@@ -35,7 +35,7 @@ Our approach utilizes [FlauBERT](https://github.com/getalp/Flaubert), fine-tuned
 
 Predicting sentence complexity seems a valuable ancillary task for ATS, as it can contribute to the automatic creation of monolingual *complex-simpler* pairs, which are a scarce resource in ATS, especially for less resource-rich languages than English. Prior research has often addressed sentence complexity assessment by relying on binary classification models. However, this approach proves somewhat coarse in the context of simplification, considering its relative nature. 
 
-Indeed, a __complex sentence (C)__ being transformed into a simple one __(S)__ results in a __simplification__. Conversely, a __S$\rightarrow$C__ process gives rise to a __complexification__. Nevertheless, an absolute classifier can equally categorize a source and target sentences as __C$\rightarrow$C__ or __S$\rightarrow$S__. Given that __simplification__ and __complexification__ operations are reference-dependent, they may validly occur in both cases.
+Indeed, a __complex sentence (C)__ being transformed into a simple one __(S)__ results in a __simplification__. Conversely, a __S→C__ process gives rise to a __complexification__. Nevertheless, an absolute classifier can equally categorize a source and target sentences as __C→C__ or __S→S__. Given that __simplification__ and __complexification__ operations are reference-dependent, they may validly occur in both cases.
 
 | *Examples* | *Wikipedia sentence* | *Vikidia sentence* | *Absolute classifier (Wiki)*|*Absolute classifier (Viki)* |*Relative classifier (Wiki-Viki)* |
 | ---- | ---- | --- | ---- | ---- | ---- |
