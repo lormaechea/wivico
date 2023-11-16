@@ -2,7 +2,7 @@
 ### A general-purpose parallel sentence simplification dataset for French
 
 <p align="center">
-    <a href="https://github.com/lormaechea/wivico/raw/main/v.2/wivico_dataset_v2.tar.gz">
+    <a href="https://github.com/lormaechea/wivico/raw/main/wivico_v.2/wivico_dataset_v2.tar.gz">
         <img src="https://img.shields.io/badge/WIVICO--V2--DATASET-DOWNLOAD-DOWNLOAD?style=for-the-badge&logo=github">
     </a>
 </p>
