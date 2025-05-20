@@ -25,14 +25,15 @@ This repository currently contains __two different versions__:
 
     ```bibtex 
     @inproceedings{ormaechea-2023-extracting-simplification-pairs,
-        title = {Extracting sentence simplification pairs from French comparable corpora using a two-step filtering method},
+        title = {Extracting Sentence Simplification Pairs from {F}rench Comparable Corpora Using a Two-Step Filtering Method},
         author = {Lucía Ormaechea and Nikos Tsourakis},
-        booktitle = {Proceedings of the Swiss Text Analytics Conference 2023},
+        booktitle = {Proceedings of the 8th edition of the Swiss Text Analytics Conference},
         month = {6},
         year = {2023},
         location = {Neuchâtel, Switzerland},
-        publisher = {ACL},
-        url = {https://archive-ouverte.unige.ch/unige:169798}
+        publisher = {Association for Computational Linguistics},
+        url = {https://aclanthology.org/2023.swisstext-1.4/},
+        pages = {30--40}
     }
     ```
 
@@ -46,27 +47,13 @@ This repository currently contains __two different versions__:
         month = {12},
         year = {2023},
         location = {Trento, Italy},
-        publisher = {ACL},
-        url = {To appear},
+        publisher = {Association for Computational Linguistics},
+        url = {https://aclanthology.org/2023.icnlsp-1.12/},
+        pages = {120--133}
     }
     ``` 
 
-## Authors
-
-<!-- If you find this repository helpful, feel free to cite our publication [Simple, Simpler and Beyond: A Fine-Tuning BERT-Based Approach to Enhance Sentence Complexity Assessment for Text Simplification](https://to_appear):
-
-```bibtex 
-@inproceedings{ormaechea-2023-simple-simpler-beyond,
-    title = {Simple, Simpler and Beyond: A Fine-Tuning BERT-Based Approach to Enhance Sentence Complexity Assessment for Text Simplification},
-    author = {Lucía Ormaechea, Nikos Tsourakis, Didier Schwab, Pierrette Bouillon and Benjamin Lecouteux},
-    booktitle = {Proceedings of the 6th International Conference on Natural Language and Speech Processing (ICNSLP)},
-    month = {12},
-    year = {2023},
-    location = {Trento, Italy},
-    publisher = {ACL},
-    url = {To appear},
-}
-``` -->
+## Authors:
 
 __Contact person__: [Lucía Ormaechea](https://luciaormaechea.com/), [lucia.ormaecheagrijalba@unige.ch](mailto:lucia.ormaecheagrijalba@unige.ch)
 
