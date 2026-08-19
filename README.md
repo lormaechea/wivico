@@ -53,8 +53,3 @@ This repository currently contains __two different versions__:
     }
     ``` 
 
-## Authors:
-
-__Contact person__: [Lucía Ormaechea](https://luciaormaechea.com/), [lucia.ormaecheagrijalba@unige.ch](mailto:lucia.ormaecheagrijalba@unige.ch)
-
-If you have further questions, don't hesitate to send us an email.
